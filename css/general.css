@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html { 
+    
+    -moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+    
+    font-family: Palatino, Times, serif;
+}
+
+img { 
+	width: 100%;
+    display: block;
+}
+
+body {
+    margin: 5;
+    padding: 0;
+}
+
+.masthead {
+    background-color: black;
+    overflow: hidden;
+}
+
+.logo {
+    height: 4.5rem; 
+    width: auto;
+    margin: .5rem 5%;
+}
+
+artcile {
+    margin: 0;
+    padding: 0 5%; 
+    overflow: hidden;
+    color: blue; 
+}
+
+h1 {
+    margin: 1rem 0; 
+    font-size: 2.75rem;
+    line-height: 2.5rem;
+    color: grey;
+    text-shadow: black 2px 2px; 
+}
+
+h1 + p {
+    font-size: 1.5rem;
+    margin-bottom: 0 0 1.5rem;
+    line-height: rem;
+}
