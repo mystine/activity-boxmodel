@@ -27,6 +27,7 @@ html {
 img { 
 	width: 100%;
     display: block;
+    padding: 40;
 }
 
 body {
@@ -105,12 +106,15 @@ footer {
     overflow: hidden;
 }
 
-footer p {
+footer {
+    padding: 20;
+    font-family: Copperplate, Times, Fantasy;
     color: white;
-    margin: .5rem 5% 4rem;
+    margin: 0; 
     font-size: 1rem;
 }
 
 footer a {
-    color: white;
+    font-family: Copperplate, Times, Fantasy;
+    color: black;
 }
